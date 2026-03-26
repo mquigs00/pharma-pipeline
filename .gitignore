@@ -1,3 +1,5 @@
+.venv/
+
 # Terraform
 **/.terraform/
 *.tfstate
@@ -14,3 +16,10 @@ venv/
 # AWS
 .aws/
 credentials
+
+# Lambda dependencies
+ingestion/**/site-packages/
+ingestion/**/bin/
+ingestion/**/*.dist-info/
+ingestion/**/*.pyd
+ingestion/**/*.zip
